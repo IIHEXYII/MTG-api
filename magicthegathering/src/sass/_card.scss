@@ -1,0 +1,76 @@
+@import './variables';
+
+.cardContainer {
+    width: 100%;
+    max-width: 300px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cardContent {
+ text-align: center;
+ &__image{
+     border-radius:10px;
+ }
+}
+// .common {
+//     color: $common;
+// }
+// .uncommon {
+//    color: $uncommon; 
+// }
+// .rare {
+//     color: $rare;
+// }
+// .mythicalRare {
+//     color: $mythicalRare;
+// }
+
+
+.common {
+    background-color: $common;
+    width: 100%;
+    max-width: 300px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.uncommon {
+    background-color: $uncommon;
+    width: 100%;
+    max-width: 300px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.rare {
+    background-color: $rare;
+    width: 100%;
+    max-width: 300px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.mythicalRare {
+    background-color: $mythicalRare;
+    width: 100%;
+    max-width: 300px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
